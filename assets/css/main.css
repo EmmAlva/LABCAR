@@ -17,7 +17,7 @@ header .container-fluid [class*="col-"]{
 	background: #76eba9;
 }
 #conduce{
-	background: #pink;
+	background: pink;
 }
 #conduce .container{
 	background-image: url(../img/conduce.jpg);

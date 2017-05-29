@@ -1,0 +1,32 @@
+div.container{
+	background: #fff;
+}
+header .container-fluid{
+	background-image: url(../img/taxi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header .container-fluid [class*="col-"]{
+	background: #f7b617;
+}
+@media (min-width: 768px){
+
+}
+
+#informacion{
+	background: #76eba9;
+}
+#conduce{
+	background: #pink;
+}
+#conduce .container{
+	background-image: url(../img/conduce.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#tarifa{
+	background: cyan;
+}
+footer{
+	background:gray;
+}

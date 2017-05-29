@@ -3,11 +3,19 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
+	color:#fff;
 }
-/*HEADER*/
+/*REUSABLES*/
+.text-white{
+	color: #fff;
+	font-weight: 700;
+}
+.btn-labcar{
+	background:#f7b617; 
+}
+/*NAV*/
 div.container:first-child{
-	background: #fff;
-	padding: 10px 0;
+	padding: 0;
 }
 .container a{
 	margin:0 25px;
@@ -24,40 +32,105 @@ div.container:first-child{
 }
 
 .nav li{
-	padding: 15px 0;
+	padding: 5px 0;
 }
-
-header .container-fluid{
+/*HEADER*/
+#bienvenida .container-fluid{
 	background-image: url(../img/taxi.jpg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
+	background-size:100% 100%;
+	padding: 0;
 }
-header .container-fluid [class*="col-"]{
+.text-header-lg{
 	background: #f7b617;
+	padding: 40px;
+	margin: 280px 0;
+	float: right;
+}
+.col-lg-offset-6{
+	padding: 0;
+}
+.text-white img{
+	width: 80px;
+	height: 20px;
+}
+/*INFORMACION*/
+#informacion{
+	background: #f7b617;
+	padding: 80px;
+	position: relative;
 }
 
+}
+#informacion .row{
+	padding: 35px;
+	
+}
+p{
+	font-size: 20px;
+}
 
 @media (min-width: 768px){
-	.logo-brand{
-
+	.border-block{
+	width: 1200px;
+	height: 500px;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 5%;
+	left: 0;
 	}
+	.border-img{
+		display: none;
+	}
+	.border-img{
+		display: none;
+	}
+}
+.border-img{
+	border: 1px solid #fff;
+	padding: 20px;
 
 }
 
-#informacion{
-	background: #76eba9;
-}
-#conduce{
-	background: pink;
-}
-#conduce .container{
+/**CONDUCE*/
+#conduce .container-fluid{
 	background-image: url(../img/conduce.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: 300 30;
+	padding: 0;
 }
+
+#conduce .row div{
+		/*background-image:  url(../img/conduce.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;*/
+		padding: 90px 25px;
+		background: rgba(71,71,69,0.6);
+
+	}
+/*TARIFA*/
 #tarifa{
-	background: cyan;
+	background: #f7b617;
+	padding: 50px;
+
 }
+
+
+
+/*API*/
+#map {
+        padding: 30px;
+        width: 500px;
+        height: 500px;
+        border: 1px solid #fff;
+
+       }
+
+
+
 footer{
 	background: #2b2b2b;
 }

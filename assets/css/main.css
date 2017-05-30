@@ -47,13 +47,21 @@ div.container:first-child{
 	background-size:100% 100%;
 	padding: 0;
 }
-.text-header-lg{
+
+.text-dk{
 	background: #f7b617;
 	padding: 40px;
-	margin: 280px 0;
-	float: right;
+	margin: 250px 0;
 	font-family: 'Raleway', sans-serif;
 }
+.text-mv{
+	background: #f7b617;
+	padding: 10px;
+	margin: 50px 0;
+	font-family: 'Raleway', sans-serif;
+
+}
+
 .col-lg-offset-6{
 	padding: 0;
 }
@@ -80,7 +88,7 @@ p{
 
 @media (min-width: 768px){
 	.border-block{
-	width: 1200px;
+	width: 100%;
 	height: 500px;
 	border: 1px solid #fff;
 	position: absolute;

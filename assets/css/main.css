@@ -42,10 +42,17 @@ div.container:first-child{
 /*HEADER*/
 #bienvenida .container-fluid{
 	background-image: url(../img/taxi.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
 	background-size:100% 100%;
+	background-position: center 90vh;
 	padding: 0;
+	background-repeat: round;
+}
+@media (min-width: 768px){
+	#bienvenida .container-fluid{
+		background-repeat: round;
+		background-position: center 90vh;
+	}
+
 }
 
 .text-dk{
@@ -62,12 +69,12 @@ div.container:first-child{
 
 }
 
-.col-lg-offset-6{
+.col-md-5{
 	padding: 0;
 }
-.text-white img{
-	width: 80px;
-	height: 20px;
+.text-mv img{
+	width: 120px;
+	height: 30px;
 }
 /*INFORMACION*/
 #informacion{

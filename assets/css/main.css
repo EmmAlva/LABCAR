@@ -1,83 +1,92 @@
 *{
-	margin:0;
-	padding: 0;
 	box-sizing: border-box;
 	color:#fff;
 }
 /*REUSABLES*/
+.m-0{
+	margin: 0;
+}
+.p-0{
+	padding: 0;
+}
 .text-white{
 	color: #fff;
 }
 .text-heavy{
-	font-weight: 700;
+	font-weight: 600;
 }
 .btn-labcar{
 	background:#f7b617; 
 }
+.flex{
+	display: flex;
+	align-items: flex-end;
+}
+
 /*NAV*/
-div.container:first-child{
-	padding: 0;
+.logo-brand{
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
 }
-.container a{
-	margin:0 25px;
+#btn-menu a{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 }
-.container a:hover{
+#btn-menu a:hover{
 	text-decoration: none;
 	color: #2d2c1f;
 }
-.navbar-header{
-	margin: 0 !important;
-
-}
 .navbar-header button{
 	margin-left: 20px;
+	margin-top: 15px;
 	border: none;
 }
+.navbar-toggle:hover{
+	background: transparent !important;
+}
 
-.nav li{
-	padding: 5px 0;
+ul li{
+	padding: 20px;
 }
 /*HEADER*/
-#bienvenida .container-fluid{
+
+#welco .container-fluid{
 	background-image: url(../img/taxi.jpg);
-	background-size:100% 100%;
-	background-position: center 90vh;
-	padding: 0;
-	background-repeat: round;
+	background-size: cover; 
+	background-position: center;
+	height: 82vh;
 }
+.text-mv{
+	background: #f7b617;
+	padding: 25px 30px;
+	margin: 140px 0;
+	font-family: 'Raleway', sans-serif;
+
+}
+
 @media (min-width: 768px){
-	#bienvenida .container-fluid{
-		background-repeat: round;
-		background-position: center 90vh;
+	#welco .container-fluid{
+	background-position: center 91%;
+	height: 98vh;
+
+	}
+	.text-dk{
+	background: #f7b617;
+	padding: 55px 30px;
+	font-family: 'Raleway', sans-serif;
 	}
 
 }
 
-.text-dk{
-	background: #f7b617;
-	padding: 40px;
-	margin: 250px 0;
-	font-family: 'Raleway', sans-serif;
-}
-.text-mv{
-	background: #f7b617;
-	padding: 10px;
-	margin: 50px 0;
-	font-family: 'Raleway', sans-serif;
 
+.logo-blanco{
+	width: 90px;
+	height: 20px;
 }
 
-.col-md-5{
-	padding: 0;
-}
-.text-mv img{
-	width: 120px;
-	height: 30px;
-}
 /*INFORMACION*/
-#informacion{
+/*#informacion{
 	background: #f7b617;
 	padding: 80px;
 	position: relative;
@@ -112,7 +121,7 @@ p{
 		display: block;
 	}
 
-*/
+
 }
 .border-img{
 	border: 1px solid #fff;
@@ -120,7 +129,7 @@ p{
 
 }
 
-/**CONDUCE*/
+/**CONDUCE
 #conduce .container-fluid{
 	background-image: url(../img/conduce.jpg);
 	background-size: cover;
@@ -133,7 +142,7 @@ p{
 #conduce .row div{
 		/*background-image:  url(../img/conduce.jpg);
 		background-size: cover;
-		background-repeat: no-repeat;*/
+		background-repeat: no-repeat;
 		padding: 90px 25px;
 		background: rgba(71,71,69,0.6);
 
@@ -141,7 +150,7 @@ p{
 #conduce button{
 	font-family: 'Open Sans', sans-serif;
 }
-/*TARIFA*/
+/*TARIFA
 #tarifa{
 	background: #f7b617;
 	padding: 50px;
@@ -151,7 +160,7 @@ p{
 
 
 
-/*API*/
+/*API
 #map {
         padding: 30px;
         width: 500px;

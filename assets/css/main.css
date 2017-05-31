@@ -16,18 +16,21 @@
 	font-weight: 600;
 }
 .btn-labcar{
-	background:#f7b617; 
+	background:#f7b617;
+}
+.bg{
+	background:#f7b617;
 }
 .flex{
 	display: flex;
-	align-items: flex-end;
+	flex-flow: row;
 }
 
 /*NAV*/
 .logo-brand{
 	width: 100%;
 	height: 100%;
-	padding: 20px 0;
+	padding:20px 0;
 }
 #btn-menu a{
 	font-family: 'Open Sans', sans-serif;
@@ -50,87 +53,81 @@ ul li{
 	padding: 20px;
 }
 /*HEADER*/
-
 #welco .container-fluid{
 	background-image: url(../img/taxi.jpg);
-	background-size: cover; 
+	background-size: cover;
 	background-position: center;
-	height: 82vh;
-}
-.text-mv{
-	background: #f7b617;
-	padding: 25px 30px;
-	margin: 140px 0;
-	font-family: 'Raleway', sans-serif;
-
-}
-
-@media (min-width: 768px){
-	#welco .container-fluid{
-	background-position: center 91%;
 	height: 98vh;
-
-	}
-	.text-dk{
-	background: #f7b617;
-	padding: 55px 30px;
-	font-family: 'Raleway', sans-serif;
-	}
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: flex-start;
 }
-
-
 .logo-blanco{
 	width: 90px;
 	height: 20px;
 }
-
-/*INFORMACION*/
-/*#informacion{
+.text-mv{
 	background: #f7b617;
-	padding: 80px;
-	position: relative;
-}
-
-}
-#informacion .row{
-	padding: 35px;
-	
-}
-p{
-	font-size: 20px;
-	font-family: 'Open Sans', sans-serif;
+	padding: 25px 30px;
+	font-family: 'Raleway', sans-serif;
 }
 
 @media (min-width: 768px){
+	/*nav*/
+	.logo-brand{
+		padding-top: 30px;
+	}
+	/*header*/
+	#welco .container-fluid{
+		background-image: url(../img/taxi.jpg);
+		background-size: cover;
+		background-position: center 91%;
+		height: 98vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: flex-start;
+	}
+	.text-dk{
+		background: #f7b617;
+		padding: 50px ;
+		font-family: 'Raleway', sans-serif;
+	}
+	/*information*/
+
+
+}
+
+/*INFORMACION*/
+#information{
+	padding: 40px 20px;
+}
+.border-block{
+	border: 1px solid #fff;
+	padding: 30px;
+}
+h4 .pt-10{
+	margin-top: 30px;
+}
+
+@media (min-width: 768px){
+	p{
+		font-size: 26px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#information{
+		padding: 35px 150px 35px 0;
+	}
 	.border-block{
-	width: 100%;
-	height: 500px;
-	border: 1px solid #fff;
-	position: absolute;
-	top: 5%;
-	left: 0;
-	}
-	.border-img{
-		display: none;
-	}
-	/*.text-header-movil{
-		display: none;
-	}
-	.text-up{
-		display: block;
+		border: 1px solid #fff;
+		border-left: none;
+		padding: 35px;
+
 	}
 
-
-}
-.border-img{
-	border: 1px solid #fff;
-	padding: 20px;
-
-}
-
-/**CONDUCE
-#conduce .container-fluid{
+/*DRIVE*/
+#drive .container-fluid{
 	background-image: url(../img/conduce.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -140,7 +137,7 @@ p{
 }
 
 #conduce .row div{
-		/*background-image:  url(../img/conduce.jpg);
+		background-image:  url(../img/conduce.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding: 90px 25px;
@@ -178,10 +175,10 @@ footer{
 }
 
 .redes{
-	
+
 }
 .icons{
-	
+
 }
 .icons a{
 	margin: 10px;
@@ -190,7 +187,7 @@ footer{
 }
 .link1, .link2{
 	list-style: none;
-	
+
 }
 .link1 li, .link2 li{
 	margin: 25px 0;
@@ -199,7 +196,7 @@ footer{
 	color: #fff;
 }
 .link1 li a:hover, .link2 li a:hover{
-	color: #f7b617; 
+	color: #f7b617;
 }
 .img-foot{
 	margin-top: 40px;

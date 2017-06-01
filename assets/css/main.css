@@ -25,7 +25,10 @@
 	display: flex;
 	align-items: flex-start;
 }
-
+.img-foot{
+	display: flex;
+	flex-direction: column-reverse;
+}
 /*NAV*/
 .logo-brand{
 	width: 100%;
@@ -169,13 +172,7 @@ footer{
 .flex{
 	align-items: flex-end;
 	}
-.img-foot.flex{
-	flex-direction: column;
-	align-items: flex-end;
-}
-.img-foot img{
-	margin-bottom: 20px;
-}
+
 
 
 .img-foot.flex{
@@ -263,6 +260,15 @@ footer{
 	.row.flex{
 		align-items: flex-end;
 	}
+	.img-foot{
+	flex-direction: column;
+	}
+
+	.img-foot img{
+	margin-bottom: 20px;
+	width: 70%;
+}
+
 
 
 	.link2{

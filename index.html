@@ -103,25 +103,25 @@
 <section id="tarifa" class="bg">
 	<div class="container">
 		<div class="row ">
-			<div class="col-xs-12 col-sm-12 col-md-6">
+		<div class="col-xs-12 col-sm-12 col-md-6">
 			<h2>Tarifas</h2>
 			<h4>Consulta las tarifas LabCar <a href="">aquí</a></h4>
 			<br>
-				<form action="" class="form-inline">
-					<div class="form-group ">
-						<span class="glyphicon glyphicon-record "></span>
-						<input id="input-partida" type="text" class="form-control  " placeholder="Ingrese su punto de partida">
-					</div>
-					<div class="form-group ">
-						<span class="glyphicon glyphicon-send"></span>
-						<input id="input-destino" type="text" class="form-control " placeholder="Ingrese su destino">
-					</div>
-					<br>
-					<button id="trazar-ruta" type="button" class="btn btn-default text-uppercase center-block text-heavy">¡Trazar Ruta!</button>
-				</form>
+			<form action="" class="form-inline">
+				<div class="form-group ">
+					<span class="glyphicon glyphicon-record "></span>
+					<input id="input-partida" type="text" class="form-control  " placeholder="Ingrese su punto de partida">
+				</div>
+				<div class="form-group ">
+					<span class="glyphicon glyphicon-send"></span>
+					<input id="input-destino" type="text" class="form-control " placeholder="Ingrese su destino">
+				</div>
 				<br>
-				<div id="cost" class="center-block"></div>
-			</div>
+				<button id="trazar-ruta" type="button" class="btn btn-default text-uppercase center-block text-heavy">¡Trazar Ruta!</button>
+			</form>
+			<br>
+			<div id="cost" class="center-block"></div>
+		</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div id="map" class="img-rounded hidden-xs"></div>
 			</div>
@@ -137,7 +137,7 @@
 		</div>
 		<hr>
 		<div class="row flex">
-			<div class="col-xs-6 col-sm-6  col-md-3">
+			<div class="col-xs-6 col-sm-6  col-md-3 visible-lg">
 				<div class="icons">
 					<a href="" class="icon icon-facebook" aria-hidden="true"></a>
 					<a href="" class="icon icon-twitter" aria-hidden="true"></a>
@@ -167,28 +167,34 @@
 				<li><a href="">Coders</a></li>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-3 ">
-				<div class="img-foot">
-					<img src="assets/img/app-store.png" alt="appleStore">
-					<img src="assets/img/google-play.png" alt="googlePlay">
+				<div class="icons visible-xs">
+					<a href="" class="icon icon-facebook" aria-hidden="true"></a>
+					<a href="" class="icon icon-twitter" aria-hidden="true"></a>
+					<a href="" class="icon icon-linkedin2" aria-hidden="true"></a>
+					<a href="" class="icon icon-appleinc" aria-hidden="true"></a>
+					<a href="" class="icon icon-play3"></a>
+				</div>
+				<div class="img-foot flex">
+					<img src="assets/img/app-store.png" alt="appleStore" class="img-responsive">
+					<img src="assets/img/google-play.png" alt="googlePlay" class="img-responsive">
 				</div>
 			</div>
 		</div>
 		<hr>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12">
-				<span class="">© 2017 LabCar technologies Inc.</span>
+				<p class="text-center">© 2017 LabCar technologies Inc.</p>
 			</div>
 		</div>
 	</div>
 </footer>
 
 
-
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGWUKygbXamxF97gTDiVTqbwHwWoSBA-k&callback=initMap"></script>
 <script type ="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type ="text/javascript" src ="assets/js/app.js"></script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGWUKygbXamxF97gTDiVTqbwHwWoSBA-k&callback="></script>
+
 </body>
 </html>

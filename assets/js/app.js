@@ -10,7 +10,7 @@
           zoom: 8
         });
         infoWindow = new google.maps.InfoWindow;
-        console.log(infoWindow);
+      
 
 
         // Try HTML5 geolocation.
@@ -94,11 +94,6 @@
 			    calculateAndDisplayRoute(directionsService,directionsDisplay);
 			  };
 			  document.getElementById("trazar-ruta").addEventListener("click",trazarRuta);
-
-
-
-
-
 
       }
 

@@ -1,6 +1,6 @@
+<h1>LABCAR</h1>
 
-LABCAR
-<h2> Proyecto Final Spring 4 </h2>
+<h4> Proyecto Final Spring 4 </h4>
 <p> Labcar es una empresade taxis que te permite edir un taxi cuando quieras y en donde quieras</p>
 
 <h1>Realización de la página</h1>

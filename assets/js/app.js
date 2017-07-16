@@ -92,6 +92,7 @@
 
 			  var trazarRuta = function(){
 			    calculateAndDisplayRoute(directionsService,directionsDisplay);
+			    document.getElementById("cost").style.display = "block";
 			  };
 			  document.getElementById("trazar-ruta").addEventListener("click",trazarRuta);
 

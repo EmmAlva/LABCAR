@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	color:#fff;
+	
 }
 /*REUSABLES*/
 .m-0{
@@ -65,6 +65,7 @@ ul li{
 	flex-direction: column;
 	justify-content: center;
 	align-content: flex-start;
+	color:#fff;
 }
 .logo-blanco{
 	width: 90px;
@@ -86,6 +87,7 @@ ul li{
 /*INFORMACION*/
 #information{
 	padding: 40px 20px;
+	color:#fff;
 }
 .border-block{
 	border: 1px solid #fff;
@@ -103,6 +105,7 @@ ul li{
 	background-repeat: no-repeat;
 	background-position: 3% 34%;
 	height: 38vh;
+	color:#fff;
 }
 .drive-dk{
 		background-color: rgba(0, 0, 0, 0.5);
@@ -118,6 +121,7 @@ ul li{
 #tarifa{
 	font-family: 'Open Sans', sans-serif;
 	padding: 80px 0;
+	color:#fff;
 }
 .form-group{
 	margin:20px 0; 
@@ -146,13 +150,16 @@ ul li{
 }
 
 #cost{
-	display: flex;
-	justify-content: center;align-items: center;
+	/*display: flex;*/
+	/*justify-content: center;align-items: center;*/
 	width: 100px;
 	height: 100px;
 	font-size: 30px;
 	color:#f7b617;
-	background: #383a3d;
+	background: #4E4E4E;
+	display: none;
+	text-align: center;
+	padding-top: 20px;
 }
 
 /*API*/
@@ -169,6 +176,7 @@ footer{
 	background: #2b2b2b;
 	font-family: 'Open Sans', sans-serif;
 	padding:50px 0;
+	color:#fff;
 }
 
 .flex{
@@ -287,9 +295,12 @@ footer{
 	}
 
 }
-
-
-
-.pac-matched, .pac-item-query, .pac-item, .pac-container {
-   color:red !important;
+.pac-icon{
+	color: #491C5A !important;
 }
+
+.pac-item:hover{
+	background-color: rgba(187,173,188,.4) !important;
+}
+/*.pac-matched, .pac-item-query, .pac-item, */
+
